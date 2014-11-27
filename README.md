@@ -247,7 +247,7 @@ that they are completely a delusion, and therefore do not work on normal people.
 ## Separating fact from fiction
 
 In order to separate what is a delusion from what is actually happening it is recommended you use two very distinct 
-ways of describing a situation. By default we recommend that you describe __reality in a cheerful way_ and anything 
+ways of describing a situation. By default we recommend that you describe __reality in a cheerful way__ and anything 
 part of __USP like a Noir film__. These too styles are very distinct and makes it simple for players to differentiate. 
 
 > It is also wise to encourage your players to follow the same descriptive style you choose.

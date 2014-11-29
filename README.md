@@ -6,9 +6,10 @@ Universally Shared Psychosis
  1. The sunshine and gloom - Setting
  2. Chatting with insanity - Languages
  3. Coping strategies
- 4. New powers
- 5. GM advice
- 6. Back of the book - Blurb
+ 4. Delusional tendencies - New powers
+ 5. People to talk to and people to hit - Antagonists
+ 6. GM advice
+ 7. Back of the book - Blurb
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -168,13 +169,18 @@ in and all is right again.
 
 --------------------------------------------------------------------------------------------------------------------
 
-# New powers
+# Delusional tendencies
 
 Although you can modify the powers found in the __Mini-Six__ core book, bellow you can find some more specific powers
 for the setting.
 
 
 ## Delusion: Impossible dodge
+
+TN: 23
+Duration: Instant
+Range: Self
+Resisted: None
 
 Affect: You dodge with impeccable speed that normal mortals would be hit by.
 
@@ -239,6 +245,168 @@ that they are completely a delusion, and therefore do not work on normal people.
 > is just making noises and is firmly on the floor.
 > On the other hand a flying delusion is very unlikely to work in this setting due to the fact that you jumping off a 
 > building will cause you to fall to your death.
+
+--------------------------------------------------------------------------------------------------------------------
+
+# People to talk to and people to hit
+
+The players live in the real world and as such there are people to meet, animals to talk too and supernatural 
+creatures to fend off. This section will go through the three main antagonists of USP. The _Twisted norms_, normal 
+people and animals as seen through a suffers eyes. _Supernatural_ beings and other troubled _USP suffers_.
+
+
+## The Twisted norms
+
+Animals and people fall under this category. They are the normal antagonists that intersect with the players on a 
+daily basis but show their true colours. Normal people aren't a worry usually, as they try to keep their distance 
+anyway. On the other hand animals are a whole different problem.
+
+### Average Human
+
+Might: 2d    Wit: 2d    Agility: 2d    Charm: 2d
+
+Skills: Any three at +1d each.
+Gear: As needed by profession.
+Static: Dodge 6, Soak 6
+
+Your average joe, not a threat at all but may make for some great conversation, if they can understand what you're
+rambling on about.
+
+### Cat
+
+Might: 2d    Wit: 0d    Agility: 2d+1    Charm: 1d
+
+Skills: Brawling 2d+1, Stealth 4d+2
+Static: Dodge 11, Soak 6
+
+Cats are cunning schemers but very elegant. 
+
+### Dog
+
+Might: 2d    Wit: 0d    Agility: 2d+1    Charm: 1d
+
+Skills: Lang(Ultrasound), Brawling 3d+2, Dodge: 3d+1
+Static: Dodge 7, Soak 6
+
+Man's best friend. Loyal but stubborn to the bone if you're not its master.
+
+### Rats
+
+Might: 2d    Wit: 0d    Agility: 2d+1    Charm: 1d
+
+Skills: Lang(Ultrasound), Brawling 3d+2, Dodge: 3d+1
+Static: Dodge 4, Soak 3
+
+Dirty informants and always gossiping with a bit of a drinking problem.
+
+## Supernatural
+
+They are the creatures that plague humanity. The USP suffers are the ones to protect people from these beings.
+
+A lot of the time its hard to tell if these creatures are completely an illusion or something real. There should be 
+very little time for moral decision making though when players encounter one of these monsters. Supernatural beings 
+have powers of there own and can cause not only problems for the players but also the surrounding area.
+
+Burst pipes and burning buildings don't just happen on their own, although usually the police like to make people 
+think arson was involved.
+
+### Devil (Minor)
+
+Might: 3d    Wit: 3d+1    Agility: 2d+2    Charm: 5d
+
+Skills: Brawling 5d, Dodge 4d+2, Persuasion 7d, Seduce 6d
+Perks: 
+    Regeneration 
+    Speaks All Languages.
+Static: Dodge 14, Block 15, Soak 9
+
+### Elder God
+
+Might: 5d    Wit: 10d    Agility: 3d+2    Charm: 10d
+
+Skills: Magic 17d
+Spells: All.
+Perks: 
+    Maddening Visage (any character that sees the Elder God must make a Heroic Charm roll or gain Crazy complication).
+    Cosmic Appetite (It will eat D6 characters before returning to its home dimension).
+    Dimensional Shift (can return to its home dimension at will).
+    Sorcerer.
+Complication: Must be summoned.
+Static: Dodge 11, Block 15, Soak 15
+
+### Gargoyle
+
+Might: 2d    Wit: 1d    Agility: 2d+2    Charm: 1d
+
+Skills: Brawling 4d+1, Dodge 4d, Search 3d+2, Stamina 4d, Stealth 4d+1
+Perk: 
+    Fly 60 ft /round 
+    Armor Skin (+9)
+Static: Dodge 12, Block 13, Soak 6(15)
+
+### Ghost
+
+Might: 0d    Wit: 3d+2    Agility: 4d    Charm: 3d+1
+
+Skills: Brawling 4d+2, Dodge 5d, Stealth 6d
+Perks: 
+    Insubstantial (can only be harmed by magic or enchanted weapons; uses Wit in place of Might to resist and deal 
+        damage);
+    Mournful Wail (any who hear the wail must make a Moderate _Courage_ check or flee).
+Static: Dodge 15, Block 14, Soak 11
+
+### Harpy
+
+Might: 2d+2    Wit: 2d    Agility: 3d+1    Charm: 1d
+
+Skills: Brawling 4d+2, Dodge 5d, Stealth 5d
+Perk: 
+    Fly (60 ft /round) 
+    Talons (+1D damage)
+Static: Dodge 15, Block 14, Soak 8
+
+### Vampire
+
+Might: 3d+1    Wit: 3d+1    Agility: 4d+1    Charm: 4d
+
+Skills: Athletics 5d, Brawling 5d, Dodge 6d+1, History 5d, Seduce 6d, Stealth 5d
+Perks: 
+    ESP
+    Bite (the vampire heals a wound level when inflicting at least a serious wound by brawling. Anyone killed this 
+        way rises as a vampire the next night.)
+Complication: 
+    Weakness to Sunlight (the vampire suffers a -2d to all rolls and -6 to all Static combat scores while in direct 
+        sunlight.)
+    Stake through the heart (targeting a vampire’s heart with a wooden stake adds 25 to the TN to hit but kills it 
+        instantly.)
+Static: Dodge 19, Block 15, Parry 10, Soak 10
+
+### Werewolf
+
+Might: 4d    Wit: 1d+2    Agility: 3d+2    Charm: 2d
+
+Skills: Brawling 5d, Dodge 5d+2, Stealth 5d
+Perks: 
+    Regeneration
+    Damage Immunity (can only be harmed by silver, magic, and enchanted weapons.)
+    Infectious Attack (anyone who is Severely Wounded or worse by a werewolf must make a Moderate Charm roll or 
+        transforms into a werewolf during the full moon).
+Static: Dodge 17, Block 15, Soak 12
+
+### Zombie
+
+Might: 3d    Wit: 0d    Agility: 2d    Charm: 0d
+
+Static: Dodge 6, Block 9, Parry 9, Soak 9
+
+## Other USP suffers
+
+Due to them having a common understanding for the pain they have to go through not many people with USP fight between 
+each other but sometimes it can't be helped. Maybe a supernatural entity has bewitched them or a Healer has induced a 
+drug fuelled rage.
+
+Whatever the reason, they are very difficult opponents as its like fighting a mirror. They have the same ability to 
+confront the delusions and use them to their advantage which can be dangerous in the wrong hands.
 
 --------------------------------------------------------------------------------------------------------------------
 

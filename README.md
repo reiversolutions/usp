@@ -7,7 +7,7 @@ Universally Shared Psychosis
  2. Chatting with insanity - Languages
  3. Coping strategies
  4. Delusional tendencies - New powers
- 5. People to talk to and people to hit - Antagonists
+ 5. People to talk too and people to hit - Antagonists
  6. GM advice
  7. Back of the book - Blurb
 
@@ -248,7 +248,7 @@ that they are completely a delusion, and therefore do not work on normal people.
 
 --------------------------------------------------------------------------------------------------------------------
 
-# People to talk to and people to hit
+# People to talk too and people to hit
 
 The players live in the real world and as such there are people to meet, animals to talk too and supernatural 
 creatures to fend off. This section will go through the three main antagonists of USP. The _Twisted norms_, normal 
@@ -416,7 +416,7 @@ confront the delusions and use them to their advantage which can be dangerous in
 
 In order to separate what is a delusion from what is actually happening it is recommended you use two very distinct 
 ways of describing a situation. By default we recommend that you describe __reality in a cheerful way__ and anything 
-part of __USP like a Noir film__. These too styles are very distinct and makes it simple for players to differentiate. 
+part of __USP like a Noir film__. These two styles are very distinct and makes it simple for players to differentiate. 
 
 > It is also wise to encourage your players to follow the same descriptive style you choose.
 

@@ -14,13 +14,13 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     @Styles.Render("~/content/css")
-
-    @Scripts.Render("~/scripts/modernizr")
-
+    
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" ></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" ></script>
     <![endif]-->
+
+    @RenderSection("styles", required: false)
 </head>
 <body id="page-top" class="index">
     @Html.Partial("_header")

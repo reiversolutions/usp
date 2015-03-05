@@ -1,0 +1,131 @@
+﻿@model USP.ViewModels.Chargen.CharacterSheetViewModel
+@using USP.ViewModels.Chargen
+
+
+<form>
+    <div id="personal" class="col-sm-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Personal</h3>
+            </div>
+            <div class="panel-body">
+                <div class='row'>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Name)
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Ethnicity)
+                            @Html.TextBoxFor(m => m.Ethnicity, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Gender)
+                            @Html.TextBoxFor(m => m.Gender, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Age)
+                            @Html.TextBoxFor(m => m.Age, new { @class = "form-control", type = "number" })
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Height)
+                            @Html.DropDownListFor(
+                            m => m.Height,
+                            CharacterSheetSelectList.GetHeightDropdownList(),
+                            "How tall?",
+                            new { @class="form-control" }
+                        )
+                        </div>
+                    </div>
+                    <div class='col-sm-4'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Weight)
+                            @Html.DropDownListFor(
+                                m => m.Weight,
+                                CharacterSheetSelectList.GetWeightDropdownList(),
+                                "Your weight?",
+                                new { @class = "form-control" }
+                            )
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Background)
+                            @Html.TextAreaFor(m => m.Background, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Backstory)
+                            @Html.TextAreaFor(m => m.Backstory, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="attributes" class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Attributes</h3>
+            </div>
+            <div class="panel-body">
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Name)
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Ethnicity)
+                            @Html.TextBoxFor(m => m.Ethnicity, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="attributes" class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Attributes</h3>
+            </div>
+            <div class="panel-body">
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Name)
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Ethnicity)
+                            @Html.TextBoxFor(m => m.Ethnicity, new { @class = "form-control" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>

@@ -129,6 +129,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\scripts\bootstrap-tour.min.js" />
+    <Content Include="Content\scripts\character-gen-tour.js" />
+    <Content Include="Content\styles\bootstrap-tour.min.css" />
     <Content Include="Content\styles\freelancer.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -155,13 +158,27 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_header.cshtml" />
     <Content Include="Views\Chargen\Index.cshtml" />
+    <Content Include="Views\Chargen\_characterSheet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USP.API\USP.API.csproj">
+      <Project>{373ceb80-0722-45f5-82a6-ecce8f327edf}</Project>
+      <Name>USP.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USP.Utilities\USP.Utilities.csproj">
+      <Project>{35e71ea4-661b-4fac-a42d-f16f1dd90227}</Project>
+      <Name>USP.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\USP.ViewModels\USP.ViewModels.csproj">
+      <Project>{fc5053db-d615-4090-8eff-4597fff781f3}</Project>
+      <Name>USP.ViewModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

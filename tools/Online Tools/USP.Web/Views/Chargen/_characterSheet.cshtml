@@ -1,5 +1,6 @@
 ﻿@model USP.ViewModels.Chargen.CharacterSheetViewModel
 @using USP.ViewModels.Chargen
+@using USP.Utilities
 
 
 <form>
@@ -63,7 +64,7 @@
                     <div class='col-sm-12'>
                         <div class='form-group'>
                             @Html.LabelFor(m => m.Background)
-                            @Html.TextAreaFor(m => m.Background, new { @class = "form-control" })
+                            @Html.TextAreaFor(m => m.Background, new { @class = "form-control", rows = "5" })
                         </div>
                     </div>
                 </div>
@@ -71,7 +72,59 @@
                     <div class='col-sm-12'>
                         <div class='form-group'>
                             @Html.LabelFor(m => m.Backstory)
-                            @Html.TextAreaFor(m => m.Backstory, new { @class = "form-control" })
+                            @Html.TextAreaFor(m => m.Backstory, new { @class = "form-control", rows = "5" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="attributes" class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Attributes</h3>
+            </div>
+            <div class="panel-body">
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Constitution)
+                            @Html.TextBoxFor(m => m.Constitution, new { @class = "form-control point-select" })
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Strength)
+                            @Html.TextBoxFor(m => m.Strength, new { @class = "form-control point-select" })
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Agility)
+                            @Html.TextBoxFor(m => m.Agility, new { @class = "form-control point-select" })
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Mind)
+                            @Html.TextBoxFor(m => m.Mind, new { @class = "form-control point-select" })
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Charm)
+                            @Html.TextBoxFor(m => m.Charm, new { @class = "form-control point-select" })
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='form-group'>
+                            @Html.LabelFor(m => m.Willpower)
+                            @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
                         </div>
                     </div>
                 </div>
@@ -90,36 +143,6 @@
                         <div class='form-group'>
                             @Html.LabelFor(m => m.Name)
                             @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-                        </div>
-                    </div>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Ethnicity)
-                            @Html.TextBoxFor(m => m.Ethnicity, new { @class = "form-control" })
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="attributes" class="col-sm-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Attributes</h3>
-            </div>
-            <div class="panel-body">
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Name)
-                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
-                        </div>
-                    </div>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Ethnicity)
-                            @Html.TextBoxFor(m => m.Ethnicity, new { @class = "form-control" })
                         </div>
                     </div>
                 </div>

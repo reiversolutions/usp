@@ -3,10 +3,12 @@
 }
 
 @section styles {
-    <link rel="stylesheet" type="text/css" href="~/Content/styles/bootstrap-tour.min.css">
+    @Styles.Render("~/content/character-gen")
+    @Styles.Render("~/content/tour")
 }
 
 @section scripts {
+    @Scripts.Render("~/scripts/character-gen")
     @Scripts.Render("~/scripts/tour")
 }
 

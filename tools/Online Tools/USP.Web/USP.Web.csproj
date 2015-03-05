@@ -129,9 +129,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\scripts\bootstrap-slider.js" />
     <Content Include="Content\scripts\bootstrap-tour.min.js" />
+    <Content Include="Content\scripts\character-gen-site.js" />
     <Content Include="Content\scripts\character-gen-tour.js" />
+    <Content Include="Content\styles\bootstrap-slider.css" />
     <Content Include="Content\styles\bootstrap-tour.min.css" />
+    <Content Include="Content\styles\character-gen.css" />
     <Content Include="Content\styles\freelancer.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />

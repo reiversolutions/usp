@@ -1,3 +1,7 @@
 ﻿.tool-link, .tool-link:hover {
     text-decoration: none;
 }
+
+.index .container .row h2:first-child {
+    margin-top: 10px;
+}

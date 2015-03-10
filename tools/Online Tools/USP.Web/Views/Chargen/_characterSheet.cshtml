@@ -80,51 +80,102 @@
         </div>
     </div>
 
-    <div id="attributes" class="col-sm-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Attributes</h3>
+    <div class="col-sm-10">
+        <div id="attributes">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Attributes</h3>
+                </div>
+                <div class="panel-body">
+                    <div class='row'>
+                        <div class='col-sm-6 sanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Constitution)
+                                @Html.TextBoxFor(m => m.Constitution, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                        <div class='col-sm-6 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Willpower)
+                                @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-6 sanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Strength)
+                                @Html.TextBoxFor(m => m.Strength, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                        <div class='col-sm-6 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Mind)
+                                @Html.TextBoxFor(m => m.Mind, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-6 sanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Agility)
+                                @Html.TextBoxFor(m => m.Agility, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                        <div class='col-sm-6 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Charm)
+                                @Html.TextBoxFor(m => m.Charm, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="panel-body">
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Constitution)
-                            @Html.TextBoxFor(m => m.Constitution, new { @class = "form-control point-select" })
-                        </div>
-                    </div>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Strength)
-                            @Html.TextBoxFor(m => m.Strength, new { @class = "form-control point-select" })
-                        </div>
-                    </div>
+        </div>
+        <div id="skills">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Skills</h3>
                 </div>
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Agility)
-                            @Html.TextBoxFor(m => m.Agility, new { @class = "form-control point-select" })
+                <div class="panel-body">
+                    <div class='row'>
+                        <div class='col-sm-4 sanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Constitution)
+                                @Html.TextBoxFor(m => m.Constitution, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                        <div class='col-sm-4 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Willpower)
+                                @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                            </div>
+                        </div>
+                        <div class='col-sm-4 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Willpower)
+                                @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                            </div>
                         </div>
                     </div>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Mind)
-                            @Html.TextBoxFor(m => m.Mind, new { @class = "form-control point-select" })
+                    <div class='row'>
+                        <div class='col-sm-4 sanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Constitution)
+                                @Html.TextBoxFor(m => m.Constitution, new { @class = "form-control point-select" })
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class='row'>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Charm)
-                            @Html.TextBoxFor(m => m.Charm, new { @class = "form-control point-select" })
+                        <div class='col-sm-4 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Willpower)
+                                @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                            </div>
                         </div>
-                    </div>
-                    <div class='col-sm-6'>
-                        <div class='form-group'>
-                            @Html.LabelFor(m => m.Willpower)
-                            @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                        <div class='col-sm-4 insanity'>
+                            <div class='form-group'>
+                                @Html.LabelFor(m => m.Willpower)
+                                @Html.TextBoxFor(m => m.Willpower, new { @class = "form-control point-select" })
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,14 +183,14 @@
         </div>
     </div>
 
-    <div id="attributes" class="col-sm-6">
+    <div id="calculated" class="col-sm-2">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Attributes</h3>
+                <h3 class="panel-title">Calculated</h3>
             </div>
             <div class="panel-body">
                 <div class='row'>
-                    <div class='col-sm-6'>
+                    <div class='col-sm-12'>
                         <div class='form-group'>
                             @Html.LabelFor(m => m.Name)
                             @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
@@ -150,5 +201,6 @@
         </div>
     </div>
 
+    <div class="clearfix" ></div>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
